@@ -28,7 +28,7 @@ def get_info_by_ip(ip='127.0.0.1'):
     except requests.exceptions.ConnectionError:
         print('[!]Check your connection!')
     get_info_by_ip(ip=input_text())
-
+    print('tet')
 
 def input_text():
     return input('Please enter a target IP: ')
